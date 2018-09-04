@@ -13,10 +13,12 @@ class StudentsController < ApplicationController
   end
 
   def edit
+    @student = Student.find_by_id(params[:id])
 
   end
 
   def update
+    @student = Student.find_by_id(params[:id])
 
   end
 end
