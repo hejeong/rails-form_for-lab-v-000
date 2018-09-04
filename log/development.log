@@ -792,3 +792,16 @@ rubocop \
   --auto-correct
 
 . (called from block (2 levels) in <top (required)> at /home/hejeong/rails-form_for-lab-v-000/spec/factories/students.rb:4)
+
+
+Started GET "/" for 165.230.224.42 at 2018-09-04 20:27:48 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/railties-4.2.10/lib/rails/templates/rails/welcome/index.html.erb (1.6ms)
+Completed 200 OK in 20ms (Views: 9.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/students/new" for 165.230.224.42 at 2018-09-04 20:27:52 +0000
+Processing by StudentsController#new as HTML
+  Rendered students/new.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 260ms (Views: 258.6ms | ActiveRecord: 0.0ms)
