@@ -5,7 +5,7 @@ class SchoolClassesController < ApplicationController
 
   def create
     raise params.inspect
-    
+
   end
 
   def show
