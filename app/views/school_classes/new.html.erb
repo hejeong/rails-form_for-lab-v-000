@@ -1,1 +1,9 @@
-<%= form_tag  do  
+<%= form_tag school_classes do %>
+  <%= label_tag :title %>
+  <%= text_field_tag :title %>
+
+  <%= label_tag :room_number %>
+  <%= text_field_tag :room_number %>
+
+  <%= submit_tag "Submit"%>
+<% end %>  
