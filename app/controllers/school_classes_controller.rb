@@ -4,7 +4,7 @@ class SchoolClassesController < ApplicationController
   end
 
   def create
-    @school_class = SchoolClass.create(title: params[:title], room_number: [:room_number])
+    @school_class = SchoolClass.create(title: params[:school_class_title], room_number: [:school_class_room_number])
     redirect_to school_class_path(@school_class)
   end
 
