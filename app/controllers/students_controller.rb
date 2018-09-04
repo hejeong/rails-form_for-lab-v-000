@@ -14,7 +14,6 @@ class StudentsController < ApplicationController
 
   def edit
     @student = Student.find_by_id(params[:id])
-
   end
 
   def update
