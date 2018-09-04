@@ -4,7 +4,7 @@ class SchoolClassesController < ApplicationController
   end
 
   def create
-    @post = Post.create()
+    @school_class = SchoolClass.create(params)
     redirect_to
   end
 
