@@ -9,7 +9,7 @@ class SchoolClassesController < ApplicationController
   end
 
   def show
-
+    @school_class = SchoolClass.find_by_id(params[:id])
   end
 
   def edit
