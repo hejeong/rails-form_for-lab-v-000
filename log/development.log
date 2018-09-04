@@ -438,3 +438,9 @@ Started GET "/school_classes/new" for 165.230.224.42 at 2018-09-04 19:51:51 +000
 Processing by SchoolClassesController#new as HTML
   Rendered school_classes/new.html.erb within layouts/application (1.4ms)
 Completed 200 OK in 93ms (Views: 18.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/school_classes/new" for 165.230.224.42 at 2018-09-04 19:52:04 +0000
+Processing by SchoolClassesController#new as HTML
+  Rendered school_classes/new.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 17ms (Views: 15.9ms | ActiveRecord: 0.0ms)
