@@ -4,7 +4,8 @@ class SchoolClassesController < ApplicationController
   end
 
   def create
-
+    @post = Post.create()
+    redirect_to 
   end
 
   def show
@@ -16,6 +17,12 @@ class SchoolClassesController < ApplicationController
   end
 
   def update
+
+  end
+
+  private 
+
+  def permitted_params
 
   end
 end
